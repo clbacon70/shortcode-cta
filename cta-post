@@ -1,0 +1,7 @@
+// Add Shortcode
+function CTA_POST() {
+
+	return '<p align="left">This is a shortcode generated CTA.';
+
+}
+add_shortcode( 'ctapost', 'CTA_POST' );
